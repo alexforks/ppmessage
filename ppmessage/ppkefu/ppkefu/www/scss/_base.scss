@@ -57,7 +57,7 @@ body, p, pre, input, h2, textarea, span {
 }
 
 .icon-40 {
-    @extend img.icon-40-raw;
+    @extend .icon-40-raw;
     @include icon-left;
 }
     
