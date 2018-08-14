@@ -43,7 +43,7 @@ def _install():
 
     install_cmds = [
         "brew tap homebrew/services",
-        "brew tap homebrew/nginx",
+        "brew tap denji/nginx",
         "brew install nginx-full --with-upload-module",
         "brew install ffmpeg --with-fdk-aac --with-opencore-amr --with-libvorbis --with-opus"
     ]

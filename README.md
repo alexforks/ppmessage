@@ -28,7 +28,7 @@ PPConsole is Web user interface of PPMessage and open sourced as well. After PPM
   ```Bash
     brew install hg autoconf libtool automake redis libmagic mysql libjpeg libffi fdk-aac lame mercurial
     brew tap homebrew/services
-    brew tap homebrew/nginx
+    brew tap denji/nginx
     brew install nginx-full --with-upload-module
     brew install ffmpeg --with-fdk-aac --with-opencore-amr --with-libvorbis --with-opus
   ```
