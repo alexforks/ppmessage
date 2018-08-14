@@ -163,6 +163,13 @@ Manually copy it from `Chart.js` if it does not exist.
 ppmessage/ppconsole/static/bower_components/Chart.js/Chart.min.js
 ```
 
+### Start/Stop Nginx server
+
+```Bash
+sudo brew services start nginx-full
+sudo brew services stop nginx-full
+```
+
 ### Check PPCOM
 
 Use your browser open your server url which has been configed in config.py file.
