@@ -97,10 +97,8 @@ PPConsole is Web user interface of PPMessage and open sourced as well. After PPM
 
 #### Check the requirements are ready or not.
 
-> require.py needs super user permission
-
 ```Bash
-    sudo python ppmessage/scripts/require.py
+    python ppmessage/scripts/require.py
 ```
 
 #### Use your text editor (vim/emacs/sublime) to edit the config file in PPMessage

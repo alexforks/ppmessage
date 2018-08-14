@@ -96,10 +96,6 @@ def _require_ppmessage_pth():
         _color_print("python packages path not found.")
         sys.exit()
 
-    if 0 != os.getuid():
-        _color_print("need root privilege")
-        sys.exit()
-        
     current_dir = os.path.dirname(os.path.abspath(__file__))
     current_dir = current_dir.split(os.path.sep)
     current_dir = current_dir[:-2]
