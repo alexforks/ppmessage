@@ -153,6 +153,16 @@ PPConsole is Web user interface of PPMessage and open sourced as well. After PPM
     sh dist.sh log
 ```
 
+### Patch Chart.js
+
+Somehow generated web files refer to `Chart.min.js` instead of `Chart.js`.
+Manually copy it from `Chart.js` if it does not exist.
+
+```Bash
+    cp -a ppmessage/ppconsole/static/bower_components/Chart.js/Chart.js
+ppmessage/ppconsole/static/bower_components/Chart.js/Chart.min.js
+```
+
 ### Check PPCOM
 
 Use your browser open your server url which has been configed in config.py file.
