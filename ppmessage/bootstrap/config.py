@@ -51,6 +51,8 @@ BOOTSTRAP_CONFIG = {
     
     # nginx conf 
     "nginx": {
+        "user": "nobody", # change this to your appreciated user, otherwise upload won't work
+        "group": "nobody", # change this with "user" accordingly
         "nginx_conf_path": "/usr/local/etc/nginx/nginx.conf",
         "server_name": ["ppmessage.com", "www.ppmessage.com"],
         "listen": "8080", #80
